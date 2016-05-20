@@ -1,0 +1,292 @@
+.clear{
+	clear: both;
+}
+.fiximg{
+	width: 203px;height: 60px;position: fixed;bottom: 2em;right: 1em;
+}
+.bd{
+	background:url(../img/banner.jpg) no-repeat;
+	background-size: cover;
+	padding-bottom: 6em;
+}
+#main-head{
+	padding-top: 14px;
+}
+#main-head .navbar-default{
+	background:none;
+	border: none;
+}
+#main-head .nav-user{
+	padding-top: 20px;
+}
+#main-head ul a{
+	font-size: 28px;color: #000;font-weight: 300;
+}
+.carousel-indicators li{
+	width: 20px;height: 20px;border: 2px solid white;
+}
+.carousel-indicators .active{
+	width: 20px;height: 20px;
+}
+.item-inner{
+	width: 88%;margin: 0 auto;color: #404040;font-size: 26px;font-weight:lighter;margin-top: 20px;
+}
+.carousel-indicators{
+	bottom: -60px;min-width: 100px;
+}
+.carousel-inner .item img{
+	display: inline-block !important;
+}
+.user-h2{
+	font-size: 56px;color: #404040;font-weight: 200;
+}
+.user-a{
+	font-size: 22px;line-height: 22px;color:rgb(0, 136, 204);font-weight: 300;display: inline-block;
+}
+
+/**/
+.user-form{
+	margin: 30px 0;
+}
+.user-form > .form-group >input{
+	display: block;
+    width: 220px;
+    padding: 7px;
+    text-indent: 45px;
+    float: left;
+    margin: 0;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-family: Helvetica,sans-serif;
+    outline: none !important;
+    height: 36px;
+    color: #333;
+}
+.user-form .flags{
+	display: inline-block;width: 20px;height: 11px;background: url(../img/flags-retina.png) -5241px 0;vertical-align: middle;
+}
+.user-form .caret{
+	vertical-align: middle;
+}
+.user-form .form-group{
+	position: relative;display: inline-block;
+}
+.user-form .form-group button{
+	height: 36px;border-radius: 4px 0 0 4px;border-right: 0;padding-left: 8px;
+}
+.user-form .dropdown{
+	position: absolute;top: 0;left: 0;
+}
+.user-form .form-group > a{
+	clear: both;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 5px 10px 0;
+    padding: 0 12px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 140px;
+    font-size: 14px;
+    margin: 0;
+    font-family: Helvetica,sans-serif;
+    outline: none !important;
+}
+.user-form li a{
+	display:block;padding: 5px 3px;
+}
+.user-form li a span:first-child{
+	width:20px;height: 11px;display: inline-block;
+	background: url(../img/flags-retina.png) no-repeat;
+}
+.user-form li a span:last-child{
+	color: #999;
+}
+#content{
+	padding-top: 4em;padding-bottom: 4em;
+}
+#content h2{
+	color: #404040;
+	font-size: 34px;
+	font-weight: 200;
+}
+#content p:nth-of-type(1){
+	color: #404040;
+	font-size: 14px;
+	font-weight: 200;
+}
+#content p:nth-of-type(2){
+    font-weight: 300;
+	font-size: 20px;
+    font-weight: 300;
+}
+#content p:nth-of-type(3){
+    font-weight: 300;
+	font-size: 20px;
+    font-weight: 300;
+}
+#Main-form1 .input-lg{
+	width: 60%;
+	color: rgba(64, 64, 64, 0.7);
+    font-weight: 300;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    padding: .5em 8em;
+    margin: 1em;
+    border: solid 1px #404040;
+    border-radius: 0;
+}
+#content .android{
+	background: url(../img/android-icon.jpg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    opacity: .6;
+}
+#content .android:hover{
+	opacity: 1;
+}
+#content .windows{
+	background: url(../img/windows-icon.jpg);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    opacity: .6;
+}
+#content .windows:hover{
+	opacity: 1;
+}
+
+#content-sec{
+	padding-top: 12em;padding-bottom: 6em;background: #f7f7f7;
+}
+#content-sec h3{
+	font-size: 56px;font-weight: 200;line-height: 1.1em;color: #404040;
+}
+#content-sec img:nth-of-type(1){
+	float: left;
+	margin-right: 5em;
+    margin-bottom: 1em;
+    max-width: 100%;
+    max-height: 100%;
+}
+#content-sec p:nth-of-type(1){
+	padding-top: 42px;
+}
+#content-sec p{
+	color: #404040;
+    font-weight: 200;
+    font-size: 21px;
+    text-align: left;
+}
+#content-th{
+	padding-top: 4em;
+}
+#content-th h4{
+	font-size: 56px;font-weight: 200;color: #404040;
+}
+#content-th .grid{
+	padding-top: 5em;
+    padding-bottom: 6em;
+    padding-left: 9em;
+}
+.grid li:nth-of-type(1) h5{
+	background: url(../img/blue-box.png) no-repeat;padding-left: 40px;padding-bottom: 10px;font-size: 20px;font-weight: 200;
+}
+.grid li:nth-of-type(2) h5{
+	background: url(../img/yellow-box.png) no-repeat;padding-left: 40px;padding-bottom: 10px;font-size: 20px;font-weight: 200;
+}
+.grid li:nth-of-type(3) h5{
+	background: url(../img/green-box.png) no-repeat;padding-left: 40px;padding-bottom: 10px;font-size: 20px;font-weight: 200;
+}
+.grid li:nth-of-type(4) h5{
+	background: url(../img/red-box.png) no-repeat;padding-left: 40px;padding-bottom: 10px;font-size: 20px;font-weight: 200;
+}
+
+#content-fo{
+	padding: 8em 0 2em;background: #f7f7f7;
+
+}
+.content-fo-img{
+	padding-right: 4em;float: left;max-width: 100%;max-height: 100%;
+}
+.content-fo h3{
+	font-size: 52px;color: #404040;font-weight: 200;
+}
+.content-fo p{
+	font-size: 20px;font-weight: 200;
+}
+#content-fi{
+	padding-bottom: 8em;
+}
+#content-fi h2{
+	margin: 3em 0 2em 0;font-size: 56px;font-weight: 200;
+}
+#content-fi img{
+	max-width: 100%;min-height: 100%;
+}
+#content-six{
+	background: #f7f7f7;padding-bottom: 8em;
+}
+
+#content-six h2{
+	margin: 3em 0 2em 0;font-size: 56px;font-weight: 200;
+}
+#content-six h3{
+	margin: 0.5em 0 1.5em 0;font-size: 26px;font-weight: 200;
+}
+#content-six p{
+	color: #696969;
+    font-weight: 200;
+    font-size: 21px;
+}
+#content-sev{
+	padding-top: 4em;padding-bottom: 8em;
+}
+#content-sev img{
+	max-width: 100%;max-height: 100%;padding-top: 8em;
+}
+#content-sev h4{
+	font-size: 56px;font-weight: 200;color: #404040;
+}
+#content-sev .grid{
+	padding-top: 5em;
+    padding-bottom: 6em;
+    padding-left: 9em;
+}
+#content-sev .grid li h5{
+	background: url(../img/red-box.png) no-repeat;padding-left: 40px;padding-bottom: 10px;font-size: 20px;font-weight: 300;
+	color: #000;
+}
+#content-sev .content-sev-img{
+	width: 203px;height: 60px;padding: 0;
+}
+@media screen and (max-width: 768px){
+	#content-th .grid{
+
+    padding-left:0;
+}
+	#content-sev .grid {
+		padding-left: 0;
+	}
+
+}
+@media screen and (max-width: 1024px){
+	#content .user-form{
+		display: none;
+	}
+}
